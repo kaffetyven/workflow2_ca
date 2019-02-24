@@ -1,0 +1,32 @@
+@import "../Modules/mixins.scss";
+@import "../Modules/variables.scss";
+
+.card-body .btn{
+	background-color: $blue;
+	border:none;
+	&:hover{
+		background-color: $green;
+		color:black;
+	}
+}
+.card{
+	border: solid 2px $blue;
+}
+.card-text{
+	padding:5px;
+}
+.card-title{
+	padding:5px;
+}
+@media only screen and (max-width: 768px) {
+    .card__img{    	
+    	display: block;
+    	margin-right: auto;
+    	margin-left: auto;
+	}
+    .card{
+    	max-width:400px;
+    	margin: 0 auto;    	
+    	border: solid 2px $blue;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../Modules/mixins.scss";
+@import "../Modules/variables.scss";
+
+.col-sm-8{
+	border: solid $blue 5px;
+}
+.col4{
+	border: solid $blue 5px;
+	padding:0;	
+}
+.col4__link{
+	color:$black;		
+	&:hover{
+		color:$blue;
+	}
+}
+.col-sm-12{
+	margin: 10px;
+}

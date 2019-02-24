@@ -1,0 +1,14 @@
+@import "../Modules/mixins.scss";
+@import "../Modules/variables.scss";
+
+footer{
+	background-color: $blue;
+	
+}
+.footer__text{
+	text-align:center;
+	color:$white;
+	font-family:$body_font;
+	padding:25px;
+	
+}

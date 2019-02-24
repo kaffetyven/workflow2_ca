@@ -1,0 +1,17 @@
+@import "../Modules/mixins.scss";
+@import "../Modules/variables.scss";
+li a{
+	color:$white;
+	&:hover{
+		color:$black;		
+	}
+}
+body{
+	font-family: $body_font;
+}
+h1{
+	@include px_to_rem(36px);
+}
+img{
+	width:100%;
+}

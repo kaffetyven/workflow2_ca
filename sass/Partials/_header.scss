@@ -1,0 +1,35 @@
+@import "../Modules/mixins.scss";
+@import "../Modules/variables.scss";
+
+.navbar{
+	background-color: $blue;
+}
+.navbar__title{
+	color: $white;
+	font-size: 48px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	&:hover{
+        color:$black;
+    }
+}
+.navbar__button{
+	border: 1px solid $white;
+}
+.navbar__hamburger{
+	background-color: $white;
+}
+.navbar-nav>li>a{
+	&:hover{
+		background-color: transparent;
+	}
+}
+.navbar-header{
+	padding-bottom:10px;
+}
+@media only screen and (max-width: 880px) {
+    .navbar__title{	
+    	font-size:18px;
+    }
+    
+}

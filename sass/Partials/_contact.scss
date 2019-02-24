@@ -1,0 +1,19 @@
+@import "../Modules/mixins.scss";
+@import "../Modules/variables.scss";
+
+.myForm{
+	background-color: $blue;
+	padding:15px;
+	color:white;
+}
+.myForm__input{
+	border: solid $black 3px;
+}
+.myForm__button{
+	background-color: $green;
+	color:$white;
+	border-color: none;		
+	&:hover{
+		background-color: white;
+	}
+}
